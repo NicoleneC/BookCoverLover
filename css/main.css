@@ -52,3 +52,43 @@ ul#covers li div {
 	background-position: center;
 	border-radius: 25px;
 }
+
+#popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#cover {
+	max-width: 300px;
+	position: relative;
+}
+
+#cover img {
+	display: block;
+	width: 100%;
+}
+
+#cover .overlay {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,000000+100&0+0,0+66,1+100 */
+	background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(10,30,52,0) 66%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(10,30,52,0) 66%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(10,30,52,0) 66%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+#shader {
+	position: fixed;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+}
