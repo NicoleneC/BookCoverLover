@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+	display: block;
+	padding: 20px;
+}
+
+#logo a {
+	background-color: yellow;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#main {
+	background-color: #f3f5f4;
+	padding: 50px 0;
+}
+
+#main .container {
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul#covers {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#covers li {
+	width: 180px;
+	height: 270px;
+	display: inline-block;
+	margin: 15px;
+}
+
+ul#covers li div {
+	height: 100%;
+	width: 100%;
+	display: block;
+	background-size: cover;
+	background-position: center;
+	border-radius: 25px;
+}
